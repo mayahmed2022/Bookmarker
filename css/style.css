@@ -1,0 +1,51 @@
+body{
+    background-color: #F7ECDE;
+    margin-block: 50px;
+   
+
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem; 
+    position: relative;
+}
+h1::after{
+    content: '';
+    width: 100%;
+    height: 25%;
+    background-color: #fec160c7;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 1s;
+
+}
+
+h1:hover::after{
+    height: 70%;
+
+}
+
+#home{
+    margin-block: 50px;
+    border-top: 2px black dotted;
+    border-bottom:2px black  dotted;
+  
+  
+}
+
+
+h2{
+    font-family: "Righteous", cursive;
+    font-size: 30px;
+    /* background-image: linear-gradient(to right, #3ca55c7b, #b5ac4951); */
+    color: #3ca55c; 
+    margin-block: 30px;
+
+}
+label{
+    padding: 10px;
+    font-size: 16px;
+
+}
